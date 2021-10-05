@@ -1,0 +1,180 @@
+/* colors: 
+    navy: rgb(32,32,63)
+    red: rgb(204, 74, 61)
+    teal: rgb(117, 177, 170)
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*------ Temporary for structural html --------*/
+
+
+body { 
+    border: none;
+    font-family: 'nunito', sans-serif;
+    color: white;
+}
+html { border: none; }
+
+
+  
+
+  /* Universal styles & utility classes */
+
+  .padded { padding 5%; }
+  .padded-sm { padding: 1 rem; }
+  .padded-lg { padding: 3rem;}
+
+  .round {
+      border-radius: 5%;
+  }
+
+  .bg-navy { 
+    background-color: rgb(32,32,63);
+    color: white;
+    }
+  .bg-red { 
+    background-color: rgb(204,74,61);
+    color: white;
+    }
+  .bg-teal { 
+    background-color: rgb(117, 177, 170);
+    color: white;
+}
+    .bg-white {
+        background-color: white;
+    }
+
+    .bg-orange {
+        background-color: rgb(228, 153, 74);
+    }
+
+    .text-left: { text-align:left; }
+    .text-center { text-align: center; }
+    .text-right { text-align: right; }
+
+    .vertical {
+        line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
+    }
+
+    .tall-50 { min-height: 50vh;}
+    .tall-60 { min-height: 60vh;}
+    .tall-70 { min-height: 70vh; }
+    .tall-80 { min-height: 80vh;}
+    .tall-90 { min-height: 90vh;}
+    .tall-100 { min-height: 100vh;}
+    .tall-130 { min-height: 130vh;}
+
+    /*300 400 600 700 800*/
+
+    .font-weight-normal{ font-weight: 400;}
+    .font-weight-light{ font-weight: 300;}
+    .font-weight-medium{ font-weight: 600;}
+    .font-weight-semi-bold{ font-weight: 700;}
+    .font-weight-extra-bold{ font-weight: 800;}
+
+   
+
+    p{
+        font-weight: 200;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+
+    .small-text{font-size: 1.5rem;}
+    .medium-text{ 
+        font-size: 2rem;
+        line-height: 1.5;
+}
+    .medium-large-text {font-size: 3rem;}
+    .big-text{ font-size: 4.5rem;}
+
+    .quote-icon { 
+        font-size: 6rem;
+        display: inline-block;
+    }
+
+    .bg-image {
+        background-image: url('/images/toots-copper.png');
+        background-size: cover;
+        background-position: center;
+        min-height: 10rem;
+        background-repeat: no-repeat;
+        padding-bottom: 10%;
+    }
+
+    .portrait-tall { padding-bottom: 175%;}
+    .portrait { padding-bottom: 125%;}
+    .square { padding-bottom: 100%;}
+    .landscape{ padding-bottom: {66%};}
+    .landscape-wide {padding-bottom: 56%;}
+
+    .bg-pos-t { background-position: top;}
+    .bg-pos-b { background-position: bottom;}
+    .bg-pos-l { background-position: left;}
+    .bg-pos-r { background-position: right;}
+
+    
+ /* navigation */
+    header {
+        padding: 1% 5%;
+    }
+    
+    header a{
+        color: black;
+        text-decoration: none;
+        display: inline-block;
+        padding: .50rem;
+    }
+
+
+
+
+
+  /* header image */
+
+  .header-image {
+    background-image: url('/images/Asset\ 4toots.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 600px;
+    height: 500px;
+}
+
+/* Gallery */
+
+    .bg-g-one { background-image: url('/images/toots-husky.png'); }
+    .bg-g-two { background-image: url('/images/toots-white-boxer.png'); }
+    .bg-g-three { background-image: url('/images/toots-tommy.png'); }
+    .bg-g-four { background-image: url('/images/toots-boxer.png'); }
+
+
+/* before and after */ 
+.brody-before {
+    background-image: url('/images/toots-boxer-before.png');
+}
+
+.brody-after {
+    background-image: url('/images/toots-boxer-after.png');
+
+}
+
+h2{
+    font-size: 2.5rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+}
+
+
+
+/* footer */ 
+
+.sm-insta {
+    align-items: right;
+}
